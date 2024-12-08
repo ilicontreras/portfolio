@@ -1,0 +1,177 @@
+@font-face {
+    font-family: font1;
+    src: url(fonts/LumieraHandwriting.ttf);
+  }
+@font-face {
+    font-family: font2;
+    src: url(fonts/LobsterFuguRegular-JpaJ7.ttf);
+}
+@font-face {
+    font-family: font3;
+    src: url(fonts/PineappleShadowRegular-LV8qW.ttf);
+}
+@font-face {
+    font-family: font4;
+    src: url(fonts/Wildy-Sans.ttf);
+}
+
+#backtomenu{
+    width: 30px;
+    margin-top: 8px;
+}
+
+.about{
+    display: flex;
+    align-items: center;
+    width: 97%;
+    margin-left: 1.5%;
+}
+
+#aboutbutton{
+    font-family: font4;
+    font-size: 18px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+#instagram{
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+    margin-top: 19px;
+}
+
+#mail{
+    width: 20px;
+    height: 20px; 
+    margin-top: 19px;
+}
+
+#menu{
+    width: 40px;
+}
+#menulink{
+    margin-right: 80%;
+    margin-left: 5%;
+
+}
+.experience{
+    width: 70%;
+    margin-left: 15%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+#photography{
+    font-family: font2;
+    font-size: 15px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    color: rgb(197, 197, 197);
+}
+#photography:hover{
+    color: rgb(0, 0, 0);
+}
+#graphicdesign{
+    font-family: font2;
+    font-size: 15px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    color: rgb(197, 197, 197);
+}
+#graphicdesign:hover{
+    color: rgb(0, 0, 0);
+}
+#socialmedia{
+    font-family: font2;
+    font-size: 15px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    color: rgb(197, 197, 197);
+}
+#socialmedia:hover{
+    color: rgb(0, 0, 0);
+}
+#im{
+    font-family: font2;
+    font-size: 15px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    color: rgb(197, 197, 197);
+}
+#im:hover{
+    color: rgb(0, 0, 0);
+}
+
+.introphotos {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    gap: 5px; /* Optional: Add space between images */
+    flex-wrap: wrap; /* Allow wrapping for small screens */
+    justify-content: center;
+    /* Smooth transition for hover effect */
+  }
+  
+.fixhead{
+object-position: 0px -40px;
+}
+
+.introphotos img {
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+   transition: 0.3s; 
+  }
+  
+  .introphotos a{
+    width: 250px;
+    height: 250px;
+    position: relative;
+  }
+
+  #josu{
+    object-position: 0px -70px;
+  }
+
+  #maroon5{
+    object-position: 0px -120px;
+  }
+
+  #swims{
+    object-position: -90px 0px;
+  }
+  
+  .overlay {
+    position: absolute; /* Position overlay on top of the image */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent black background */
+    color: white; /* Text color */
+    font-family: font2;
+    display: flex; /* Center text using Flexbox */
+    align-items: center;
+    justify-content: center;
+    opacity: 0; /* Initially hidden */
+    transition:  0.3s ; /* Smooth appearance of overlay */
+  }
+  
+  
+  .overlay p{
+font-size: 30px;
+  }
+
+  .introphotos a:hover > .overlay{
+
+    opacity: 1;
+    transition:  0.3s 
+  }

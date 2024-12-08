@@ -1,0 +1,101 @@
+@font-face {
+    font-family: font1;
+    src: url(fonts/LumieraHandwriting.ttf);
+  }
+@font-face {
+    font-family: font2;
+    src: url(fonts/LobsterFuguRegular-JpaJ7.ttf);
+}
+@font-face {
+    font-family: font3;
+    src: url(fonts/PineappleShadowRegular-LV8qW.ttf);
+}
+@font-face {
+    font-family: font4;
+    src: url(fonts/Wildy-Sans.ttf);
+}
+
+#backtomenu{
+    width: 30px;
+    margin-top: 8px;
+}
+
+.about{
+    display: flex;
+    justify-content: right;
+    margin-right: 30px;
+}
+
+#aboutbutton{
+    font-family: font4;
+    font-size: 18px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+#instagram{
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+    margin-top: 13px;
+}
+
+#mail{
+    width: 20px;
+    height: 20px; 
+    margin-top: 17px;
+}
+
+.experience{
+    width: 70%;
+    margin-left: 15%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#photography{
+    font-family: font2;
+    font-size: 15px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    color: rgb(197, 197, 197);
+}
+#photography:hover{
+    color: rgb(0, 0, 0);
+}
+#graphicdesign{
+    font-family: font2;
+    font-size: 15px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    color: rgb(197, 197, 197);
+}
+#graphicdesign:hover{
+    color: rgb(0, 0, 0);
+}
+#socialmedia{
+    font-family: font2;
+    font-size: 15px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    color: rgb(197, 197, 197);
+}
+#socialmedia:hover{
+    color: rgb(0, 0, 0);
+}
+#im{
+    font-family: font2;
+    font-size: 15px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    color: rgb(197, 197, 197);
+}
+#im:hover{
+    color: rgb(0, 0, 0);
+}

@@ -1,0 +1,128 @@
+@font-face {
+    font-family: font1;
+    src: url(fonts/LumieraHandwriting.ttf);
+  }
+@font-face {
+    font-family: font2;
+    src: url(fonts/LobsterFuguRegular-JpaJ7.ttf);
+}
+@font-face {
+    font-family: font3;
+    src: url(fonts/PineappleShadowRegular-LV8qW.ttf);
+}
+@font-face {
+    font-family: font4;
+    src: url(fonts/Wildy-Sans.ttf);
+}
+
+#backtomenu{
+    width: 30px;
+    margin-top: 8px;
+}
+
+.about{
+    display: flex;
+    align-items: center;
+    width: 97%;
+    margin-left: 1.5%;
+}
+
+#aboutbutton{
+    font-family: font4;
+    font-size: 18px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+#instagram{
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+    margin-top: 19px;
+}
+
+#mail{
+    width: 20px;
+    height: 20px; 
+    margin-top: 19px;
+}
+
+#menu{
+    width: 40px;
+}
+#menulink{
+    margin-right: 80%;
+    margin-left: 5%;
+}
+
+
+.photos{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; /* Allow wrapping for small screens */
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+.photos img {
+    width: 300px;             
+    height: 300px;
+    object-fit: cover;                     
+  }
+  
+.experience{
+    width: 70%;
+    margin-left: 15%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#photography{
+    font-family: font2;
+    font-size: 15px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    color: rgb(197, 197, 197);
+}
+#photography:hover{
+    color: rgb(0, 0, 0);
+}
+#graphicdesign{
+    font-family: font2;
+    font-size: 15px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    color: rgb(197, 197, 197);
+}
+#graphicdesign:hover{
+    color: rgb(0, 0, 0);
+}
+#socialmedia{
+    font-family: font2;
+    font-size: 15px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    color: rgb(197, 197, 197);
+}
+#socialmedia:hover{
+    color: rgb(0, 0, 0);
+}
+#im{
+    font-family: font2;
+    font-size: 15px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    color: rgb(197, 197, 197);
+}
+#im:hover{
+    color: rgb(0, 0, 0);
+}
